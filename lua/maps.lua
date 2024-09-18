@@ -1,11 +1,13 @@
 vim.g.mapleader = " "
 vim.g.maplocalleader = "\\"
 
+-- copy/paste extensions
 vim.keymap.set("x", "<leader>p", [["_dP]])
 
 vim.keymap.set({"n", "v"}, "<leader>y", [["+y]])
 vim.keymap.set("n", "<leader>Y", [["+Y]])
 
+-- SEND TO THE SHADOW REALM
 vim.keymap.set({"n", "v"}, "<leader>d", [["_d]])
 
 -- Neotree maps
